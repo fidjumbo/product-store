@@ -119,9 +119,10 @@ function ProductsPage() {
               </div>
 
                {/* FORM ACTIONS */}
-              <div className="flex justify-between mt-8">
+              <div className="flex justify-center gap-2 mt-8">
+
                 <button type="button" onClick={handleDelete} className="btn btn-error">
-                  <Trash2Icon className="size-4 mr-2" />
+                  <Trash2Icon className="size-4 mr-2"/>
                   Delete Product
                 </button>
 
@@ -134,7 +135,7 @@ function ProductsPage() {
                     <span className="loading loading-spinner loading-sm" />
                   ) : (
                     <>
-                      <SaveIcon className="size-4 mr-2" />
+                      <SaveIcon className="size-4 mr-2"/>
                       Save Changes
                     </>
                   )}
